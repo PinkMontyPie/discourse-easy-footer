@@ -1,0 +1,19 @@
+<script type="text/discourse-plugin" version="0.8">
+  api.registerConnectorClass('below-site-map', 'easy-responsive-footer', {
+    setupComponent(args, component) {
+      // Component setup logic if needed
+    }
+  });
+
+  api.onPageChange((url, title) => {
+    // This will run on every page change, ensuring the footer is properly displayed
+    const footerEnabled = api.container.lookup('service:theme-settings').get('footer_enabled');
+    if (footerEnabled) {
+      // Make sure the footer is visible
+      const footerElement = document.querySelector('.custom-footer');
+      if (footerElement) {
+        footerElement.style.display = 'block';
+      }
+    }
+  });
+</script> 
