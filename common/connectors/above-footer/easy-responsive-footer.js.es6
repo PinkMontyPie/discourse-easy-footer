@@ -1,5 +1,5 @@
 export default {
   setupComponent(args, component) {
-    // Component setup logic if needed
+    // Add setup code here if needed
   }
 }; 

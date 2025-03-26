@@ -1,7 +1,14 @@
 <script type="text/discourse-plugin" version="0.8">
-  api.registerConnectorClass('below-site-map', 'easy-responsive-footer', {
+  // Register our connector for both common footer locations to ensure it displays
+  api.registerConnectorClass('above-footer', 'easy-responsive-footer', {
     setupComponent(args, component) {
-      // Component setup logic if needed
+      // Setup code if needed
+    }
+  });
+  
+  api.registerConnectorClass('below-footer', 'easy-responsive-footer', {
+    setupComponent(args, component) {
+      // Setup code if needed
     }
   });
 
