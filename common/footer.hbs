@@ -1,0 +1,37 @@
+{{#if theme-setting 'footer_enabled'}}
+  <footer class='custom-footer'>
+    <div class='wrap'>
+      <div class='footer-content'>
+        <div class='footer-section'>
+          <h3>{{theme-i18n "footer.about.title"}}</h3>
+          <ul>
+            <li><a href="/about">{{theme-i18n "footer.about.about_us"}}</a></li>
+            <li><a href="/guidelines">{{theme-i18n "footer.about.guidelines"}}</a></li>
+            <li><a href="/tos">{{theme-i18n "footer.about.terms"}}</a></li>
+          </ul>
+        </div>
+
+        <div class='footer-section'>
+          <h3>{{theme-i18n "footer.community.title"}}</h3>
+          <ul>
+            <li><a href="/categories">{{theme-i18n "footer.community.categories"}}</a></li>
+            <li><a href="/tags">{{theme-i18n "footer.community.tags"}}</a></li>
+            <li><a href="/badges">{{theme-i18n "footer.community.badges"}}</a></li>
+          </ul>
+        </div>
+
+        <div class='footer-section'>
+          <h3>{{theme-i18n "footer.contact.title"}}</h3>
+          <ul>
+            <li><a href="/u/staff">{{theme-i18n "footer.contact.team"}}</a></li>
+            <li><a href="/contact">{{theme-i18n "footer.contact.contact"}}</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class='footer-bottom'>
+        <p>{{theme-setting 'footer_copyright'}}</p>
+      </div>
+    </div>
+  </footer>
+{{/if}}

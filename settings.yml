@@ -1,0 +1,17 @@
+footer_enabled:
+  default: true
+  description: "Enable the custom responsive footer"
+  
+footer_columns:
+  default: 3
+  description: "Number of columns in the footer (1-4)"
+  min: 1
+  max: 4
+  
+footer_title:
+  default: "Your Site Name"
+  description: "The title to display in the footer"
+  
+footer_copyright:
+  default: "© 2024 Your Site Name. All rights reserved."
+  description: "Copyright text in the footer"

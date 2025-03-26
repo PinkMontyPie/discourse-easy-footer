@@ -1,0 +1,16 @@
+en:
+  footer:
+    about:
+      title: "About"
+      about_us: "About Us"
+      guidelines: "Guidelines"
+      terms: "Terms of Service"
+    community:
+      title: "Community"
+      categories: "Categories"
+      tags: "Tags"
+      badges: "Badges"
+    contact:
+      title: "Contact"
+      team: "Our Team"
+      contact: "Contact Us"
